@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#taskInput, #addTaskBtn{
+    padding: 30px;
+    font-size: 40px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#taskList li {
+    margin-bottom: 10px;
+}
+
+#taskList li a {
+    display: block;
+    font-size: 40px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+#taskList li .removeTaskBtn {
+    font-size: 40px;
+}
+#titre{
+    font-size: 50px;
+}
+#todoPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.ui-content {
+    flex: 1;
+}

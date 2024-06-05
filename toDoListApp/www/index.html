@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List avec jQuery Mobile</title>
+    <link rel="stylesheet" href="lib/themes/mytheme.min.css">
+    <link rel="stylesheet" href="lib/jquery.mobile.icons-1.4.5.min.css">
+    <link rel="stylesheet" href="lib/jquery.mobile.structure-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div data-role="page" id="todoPage">
+        <div data-role="header">
+            <h1 id="titre">To-Do List</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" id="taskList" data-inset="true">
+                <!-- Les tâches seront ajoutées ici dynamiquement -->
+            </ul>
+
+            <div>
+                <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
+                <button id="addTaskBtn" class="ui-btn ui-btn-inline ui-corner-all">Add Task</button>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h4 id="titre">&copy; 2024 SIGNANE</h4>
+        </div>
+    </div>
+    <script src="lib/demos/js/jquery.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
